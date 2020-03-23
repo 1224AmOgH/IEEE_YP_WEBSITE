@@ -142,7 +142,7 @@
 
 .mobile_menu {
 	position: absolute;
-	right: 10px;
+	right: 50px;
 	width: 96%;
 	z-index: 99;
 }
@@ -155,12 +155,12 @@
 }
 .slicknav_menu .slicknav_icon-bar {
     background-color: #000;
-    height: 3px;
+    height: 15px;
     margin: 5px 0;
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-    width: 30px;
+    width: 60px;
     position: relative;
 }
 .slicknav_btn {
