@@ -567,7 +567,10 @@ h3 {
   color: #fff !important;
   border: 1px solid transparent;
 }
-
+.img-fluid{
+  width: 900% auto;
+  he
+}
 /* line 145, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_btn.scss */
 .boxed-btn3-green-2:focus {
   outline: none;
