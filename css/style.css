@@ -20,6 +20,7 @@ body {
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  padding-left: 50px;
 }
 
 /* line 16, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
