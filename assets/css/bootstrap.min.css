@@ -229,6 +229,14 @@ img {
     width:300px;
 
 }
+imgg {
+    vertical-align: middle;
+    border-style: none
+    height:300px;
+    width:700px;
+
+}
+
 
 svg:not(:root) {
     overflow: hidden
