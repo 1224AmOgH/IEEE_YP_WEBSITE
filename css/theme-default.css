@@ -1,13 +1,33 @@
 /* 1. Theme default css */
-@import url("https://fonts.googleapis.com/css?family=Alata|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
-/* line 5, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700|Work+Sans:300,400,500,600,700,900&display=swap");
+/* line 1, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_extend.scss */
+.flex-center-start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+}
+
+/* line 13, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_extend.scss */
+.overlay::before {
+  background-image: -moz-linear-gradient(0deg, rgba(0, 28, 100, 0.8) 21%, rgba(0, 28, 100, 0.8) 22%, rgba(0, 53, 187, 0.3) 100%, #0035bb 100%);
+  background-image: -webkit-linear-gradient(0deg, rgba(0, 28, 100, 0.8) 21%, rgba(0, 28, 100, 0.8) 22%, rgba(0, 53, 187, 0.3) 100%, #0035bb 100%);
+  background-image: -ms-linear-gradient(0deg, rgba(0, 28, 100, 0.8) 21%, rgba(0, 28, 100, 0.8) 22%, rgba(0, 53, 187, 0.3) 100%, #0035bb 100%);
+}
+
+/* line 6, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 body {
-  font-family: "Alata", sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
 }
 
-/* line 12, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 13, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 .img {
   max-width: 100%;
   -webkit-transition: 0.3s;
@@ -16,28 +36,28 @@ body {
   transition: 0.3s;
 }
 
-/* line 16, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 17, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 a,
-.button {
+.button, button {
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
 
-/* line 20, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 21, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 a:focus,
 .button:focus, button:focus {
   text-decoration: none;
   outline: none;
 }
 
-/* line 25, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 26, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 a:focus {
   text-decoration: none;
 }
 
-/* line 28, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 29, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 a:focus,
 a:hover,
 .portfolio-cat a:hover,
@@ -45,20 +65,19 @@ a:hover,
   text-decoration: none;
 }
 
-/* line 34, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 35, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 a,
 button {
-  color: #1F1F1F;
   outline: medium none;
 }
 
-/* line 39, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 39, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 h1, h2, h3, h4, h5 {
-  font-family: "Alata", sans-serif;
+  font-family: "Work Sans", sans-serif;
   color: #191d34;
 }
 
-/* line 43, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 43, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 h1 a,
 h2 a,
 h3 a,
@@ -68,28 +87,28 @@ h6 a {
   color: inherit;
 }
 
-/* line 52, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 52, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 ul {
   margin: 0px;
   padding: 0px;
 }
 
-/* line 56, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 56, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 li {
   list-style: none;
 }
 
-/* line 59, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 59, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 p {
   font-size: 16px;
   font-weight: 300;
-  line-height: 28px;
-  color: #7A838B;
+  line-height: 30px;
+  color: #5c5c5c;
   margin-bottom: 13px;
   font-family: "Roboto", sans-serif;
 }
 
-/* line 68, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 68, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 label {
   color: #7e7e7e;
   cursor: pointer;
@@ -97,159 +116,157 @@ label {
   font-weight: 400;
 }
 
-/* line 74, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 74, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 *::-moz-selection {
   background: #444;
   color: #fff;
   text-shadow: none;
 }
 
-/* line 79, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 79, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 ::-moz-selection {
   background: #444;
   color: #fff;
   text-shadow: none;
 }
 
-/* line 84, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 84, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 ::selection {
   background: #444;
   color: #fff;
   text-shadow: none;
 }
 
-/* line 89, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 89, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 *::-webkit-input-placeholder {
   color: #cccccc;
   font-size: 14px;
   opacity: 1;
 }
 
-/* line 94, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 94, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 *:-ms-input-placeholder {
   color: #cccccc;
   font-size: 14px;
   opacity: 1;
 }
 
-/* line 99, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 99, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 *::-ms-input-placeholder {
   color: #cccccc;
   font-size: 14px;
   opacity: 1;
 }
 
-/* line 104, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 104, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 *::placeholder {
   color: #cccccc;
   font-size: 14px;
   opacity: 1;
 }
 
-/* line 110, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 110, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 h3 {
   font-size: 24px;
 }
 
-/* line 114, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 114, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 .mb-65 {
   margin-bottom: 67px;
 }
 
-/* line 118, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 118, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 .black-bg {
   background: #020c26 !important;
 }
 
-/* line 122, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 122, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 .white-bg {
   background: #ffffff;
 }
 
-/* line 125, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 125, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 .gray-bg {
   background: #f5f5f5;
 }
 
-/* line 130, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 130, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 .bg-img-1 {
   background-image: url(../img/slider/slider-img-1.jpg);
 }
 
-/* line 133, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 133, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 .bg-img-2 {
   background-image: url(../img/background-img/bg-img-2.jpg);
 }
 
-/* line 136, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 136, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 .cta-bg-1 {
   background-image: url(../img/background-img/bg-img-3.jpg);
 }
 
-/* line 141, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 141, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 .overlay {
   position: relative;
   z-index: 0;
 }
 
-/* line 145, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 145, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 .overlay::before {
   position: absolute;
   content: "";
-  background-color: #1f1f1f;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   z-index: -1;
-  opacity: .5;
 }
 
-/* line 157, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 156, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 .overlay2 {
   position: relative;
   z-index: 0;
 }
 
-/* line 161, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 160, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 .overlay2::before {
   position: absolute;
   content: "";
-  background-color: #2C2C2C;
+  background-color: #000000;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   z-index: -1;
-  opacity: 0.6;
+  opacity: 0.3;
 }
 
-/* line 173, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
-.overlay_03 {
+/* line 172, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
+.overlay_skyblue {
   position: relative;
   z-index: 0;
 }
 
-/* line 177, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
-.overlay_03::before {
+/* line 176, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
+.overlay_skyblue::before {
   position: absolute;
+  content: "";
+  background-color: #5DB2FF;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  left: 0;
-  top: 0;
-  background: #2C2C2C;
-  opacity: .6;
-  content: '';
   z-index: -1;
+  opacity: 0.8;
 }
 
-/* line 190, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 189, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 .bradcam_overlay {
   position: relative;
   z-index: 0;
 }
 
-/* line 194, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 193, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 .bradcam_overlay::before {
   position: absolute;
   content: "";
@@ -270,22 +287,22 @@ h3 {
   opacity: 1;
 }
 
-/* line 210, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 209, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 .section-padding {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-/* line 214, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 213, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 .pt-120 {
   padding-top: 120px;
 }
 
 /* button style */
-/* line 220, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 219, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 .owl-carousel .owl-nav div {
   background: transparent;
-  height: 40px;
+  height: 50px;
   left: 0px;
   position: absolute;
   text-align: center;
@@ -296,75 +313,63 @@ h3 {
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  width: 40px;
-  color: #040E27;
+  width: 50px;
+  color: #fff;
   background-color: transparent;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
   left: 50px;
   font-size: 15px;
-  line-height: 40px;
-  border: 1px solid #B3B6BD;
-  left: -40px;
+  line-height: 50px;
+  border: 1px solid #fff;
+  left: 140px;
 }
 
-/* line 247, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 246, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 .owl-carousel .owl-nav div.owl-next {
   left: auto;
-  right: 80px;
+  right: 140px;
 }
 
-/* line 252, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 251, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 .owl-carousel .owl-nav div.owl-next i {
-  line-height: 40px !important;
-  font-size: 15px;
-  line-height: 40px !important;
   position: relative;
-  top: -1px;
+  right: 0;
 }
 
-/* line 262, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 258, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 .owl-carousel .owl-nav div.owl-prev i {
-  line-height: 40px;
-  font-size: 15px;
-  line-height: 40px !important;
-  top: -2px;
-  left: -1px;
   position: relative;
+  top: 0px;
 }
 
-/* line 275, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 268, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 .owl-carousel:hover .owl-nav div {
   opacity: 1;
   visibility: visible;
 }
 
-/* line 278, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 271, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 .owl-carousel:hover .owl-nav div:hover {
   color: #fff;
-  background: #0181F5;
+  background: #009DFF;
   border: 1px solid transparent;
 }
 
-/* line 288, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 281, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 .mb-20px {
   margin-bottom: 20px;
 }
 
-/* line 292, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 285, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 .mb-55 {
   margin-bottom: 55px;
 }
 
-/* line 295, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+/* line 288, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 .mb-40 {
   margin-bottom: 40px;
-}
-
-/* line 298, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
-.mb-20 {
-  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=theme-default.css.map */

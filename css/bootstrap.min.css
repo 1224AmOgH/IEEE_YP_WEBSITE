@@ -39,6 +39,7 @@
 *,
 ::after,
 ::before {
+  background-image: url('C:\collage\IEEE final website1\ieee imgs\banner.jpg');
     box-sizing: border-box
 }
 
@@ -225,9 +226,6 @@ figure {
 img {
     vertical-align: middle;
     border-style: none
-    height:300px;
-    width:300px;
-
 }
 
 svg:not(:root) {
