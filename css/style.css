@@ -935,7 +935,7 @@ h3 {
 .header-area .main-header-area {
   background:  #0f2942;
 
-  
+
 }
 
 @media (max-width: 767px) {
@@ -2134,8 +2134,8 @@ h3 {
 
 /* line 9, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
 .footer .footer_top {
-  padding-top: 130px;
-  padding-bottom: 110px;
+  padding-top: 30px;
+
 }
 
 @media (max-width: 767px) {
