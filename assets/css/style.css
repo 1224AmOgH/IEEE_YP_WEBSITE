@@ -7104,10 +7104,10 @@ p {
   border-radius: 5px;
   background-color:white;
 }
-#slider-image-1:target ~ .image-container{
+#slider-image-1:target ~.image-container{
   left:0px;
 }
-#slider-image-2:target ~ .image-container{
+#slider-image-2:target ~.image-container{
   left:-800px;
 }
 
@@ -7115,7 +7115,10 @@ p {
   left:-1600px;
 }
 
-* {box-sizing:border-box}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
@@ -7124,19 +7127,14 @@ p {
   margin: auto;
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
   padding: 16px;
+  margin-top: -22px;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -7208,6 +7206,11 @@ p {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
 }
 
 
