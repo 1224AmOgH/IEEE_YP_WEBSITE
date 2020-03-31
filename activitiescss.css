@@ -71,7 +71,7 @@ img {
 }
 
 .card:nth-child(even) img {
-  order: 2;
+  order: 1;
 }
 
 
@@ -97,7 +97,7 @@ img {
 .header-area .main-header-area {
   background:  #0f2942;
 
-  
+
 }
 * {
   box-sizing: border-box;
