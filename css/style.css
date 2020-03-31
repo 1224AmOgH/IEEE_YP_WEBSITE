@@ -140,7 +140,7 @@ li {
 
 /* line 59, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
 p {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 30px;
   color: #5c5c5c;
@@ -3733,7 +3733,9 @@ h2 {
 
 /* line 101, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_elements.scss */
 h3 {
-  font-size: 24px;
+  font-size: 45px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 /* line 105, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_elements.scss */
