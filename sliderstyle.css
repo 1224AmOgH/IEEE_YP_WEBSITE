@@ -74,7 +74,7 @@ body {
   color: #fff;
   cursor: pointer;
   padding: 13px 15px;
-  border-radius: 40%;
+  border-radius: 50%;
   outline: none;
 }
 
@@ -83,7 +83,7 @@ body {
   color: #333;
 }
 
-@media (max-width: 9300px) {
+@media (max-width: 500px) {
   .slide .content {
     bottom: -300px;
     left: 0;
