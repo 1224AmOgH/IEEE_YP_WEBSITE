@@ -83,7 +83,7 @@ body {
   color: #333;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
   .slide .content {
     bottom: -300px;
     left: 0;
