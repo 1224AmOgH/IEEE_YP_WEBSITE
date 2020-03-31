@@ -100,7 +100,7 @@ body {
 /* Backgorund Images */
 
 .slide:first-child {
-  background: url('./ieee imgs/nehakumari.jpg') no-repeat
+  background: url('./ieee imgs/IEEE Achievements Photos 1.jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(2) {
