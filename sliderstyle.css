@@ -37,10 +37,10 @@ body {
 
 .slide .content {
   position: absolute;
-  bottom: 70px;
+  bottom: 0px;
   left: -600px;
-  opacity: 0;
-  width: 600px;
+  opacity: 0%;
+  width: 1200px;
   background-color: #fdfdfd;
   color: #333;
   padding: 35px;
