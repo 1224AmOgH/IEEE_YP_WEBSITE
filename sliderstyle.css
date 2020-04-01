@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+ieee imgs/achievements/IEEE Achievements Photos 1 (1).jpg@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 * {
   box-sizing: border-box;
@@ -101,23 +101,23 @@ body {
 /* Backgorund Images */
 
 .slide:first-child {
-  background: url('./ieee imgs/achievement1.jpg') no-repeat
+  background: url('./ieee imgs/achievements/IEEE Achievements Photos 1 (1).jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(2) {
-  background: url('./ieee imgs/Abhishek Appaji.jpg') no-repeat
+  background: url('./ieee imgs/achievements/Malju iyer.jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(3) {
-  background: url('https://source.unsplash.com/TMOeGZw9NY4/1600x900') no-repeat
+  background: url('./ieee imgs/achievements/Nipun.jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(4) {
-  background: url('https://source.unsplash.com/yXpA_eCbtzI/1600x900') no-repeat
+  background: url('./ieee imgs/achievements/Abhishek.jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(5) {
-  background: url('https://source.unsplash.com/ULmaQh9Gvbg/1600x900') no-repeat
+  background: url('./ieee imgs/achievements/Ash.jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(6)  {
