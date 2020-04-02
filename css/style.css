@@ -6072,8 +6072,8 @@ h6 {
   /* line 1191, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_blog.scss */
   .single-post-area .blog-author img {
     margin-right: 15px;
-    width: 45px;
-    height: 45px;
+    width: 100px;
+    height: 100px;
   }
 }
 
