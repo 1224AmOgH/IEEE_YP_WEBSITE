@@ -102,7 +102,7 @@ body {
 
 .slide:first-child {
   background: url('./ieee imgs/achievements/IEEE Achievements Photos 1 (1).jpg') no-repeat
-  
+
     center top/cover;
 }
 .slide:nth-child(2) {
@@ -122,6 +122,6 @@ body {
     center top/cover;
 }
 .slide:nth-child(6)  {
-  background: url('./ieee imgs/backachi.jpg') no-repeat
+  background: url('./ieee imgs/achievements/Artboard 8.jpg') no-repeat
     center center/cover;
 }
