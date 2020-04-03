@@ -101,7 +101,7 @@ body {
 /* Backgorund Images */
 
 .slide:first-child {
-  background: url('./ieee imgs/achievements/IEEE Achievements Photos 1 (1).jpg') no-repeat
+  background: url('./ieee imgs/achievements/IEEE Achievements Photos 1 (1)-min.jpg') no-repeat
 
     center top/cover;
 }
@@ -110,18 +110,18 @@ body {
     center top/cover;
 }
 .slide:nth-child(3) {
-  background: url('./ieee imgs/achievements/Nipun.jpg') no-repeat
+  background: url('./ieee imgs/achievements/Nipun-min (1).jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(4) {
-  background: url('./ieee imgs/achievements/Abhishek.jpg') no-repeat
+  background: url('./ieee imgs/achievements/Abhishek-min.jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(5) {
-  background: url('./ieee imgs/achievements/Ash.jpg') no-repeat
+  background: url('./ieee imgs/achievements/Ash-min.jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(6)  {
-  background: url('./ieee imgs/achievements/Artboard 8.jpg') no-repeat
+  background: url('./ieee imgs/achievements/Artboard 8-min.jpg') no-repeat
     center center/cover;
 }
