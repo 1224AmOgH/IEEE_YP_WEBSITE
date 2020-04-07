@@ -3473,6 +3473,8 @@ h3 {
   padding: 70px 45px 63px 45px;
   margin-bottom: 30px;
   text-align: center;
+    width: 346px;
+    height:389px;
 }
 
 /* line 20, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_quality.scss */
@@ -6681,7 +6683,7 @@ h6 {
   font-size: 12px;
 }
 img{
-  width: auto;
+  width: 150px;
   max-width: 100%;
   height: auto;
   padding-top: 20px;
