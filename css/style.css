@@ -6683,7 +6683,7 @@ h6 {
   font-size: 12px;
 }
 img{
-  width: 150px;
+  width: auto;
   max-width: 100%;
   height: auto;
   padding-top: 20px;
