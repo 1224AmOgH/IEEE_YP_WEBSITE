@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
      <link rel="stylesheet" href="css/responsive.css"> -->
-     <link rel="stylesheet" href="activitiescss.css">
+     <link rel="stylesheet" href="activitiescsss.css">
 </head>
 
 <body>
@@ -93,28 +93,86 @@
 
       <section class="card" data-aos="fade-left">
 
-<div class="slideshow-container">
-  <div class="mySlides1">
-    <img src="ieee imgs\Mentor-4-You-min.jpg" style="width:100%">
-  </div>
+        <style>
+        * {box-sizing: border-box}
+        .mySlides1 {display: none}
+        img {vertical-align: middle;}
 
-  <div class="mySlides1">
-    <img src="ieee imgs\Step (1)-min.jpg" style="width:100%">
-  </div>
+        /* Slideshow container */
+        .slideshow-container {
+          max-width: 1000px;
+          position: relative;
+          margin: auto;
+        }
 
-  <div class="mySlides1">
-    <img src="ieee imgs\nie tech.jpg" style="width:100%">
-  </div>
+        /* Next & previous buttons */
+        .prev, .next {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          width: auto;
+          padding: 16px;
+          margin-top: -22px;
+          color: white;
+          font-weight: bold;
+          font-size: 18px;
+          transition: 0.6s ease;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+        }
 
-  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-</div>
+        /* Position the "next button" to the right */
+        .next {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+        }
 
-<p>Slideshow 2:</p>
-<div class="slideshow-container">
-  <div class="mySlides2">
-    <img src="img_band_chicago.jpg" style="width:100%">
-  </div>
+        /* On hover, add a grey background color */
+        .prev:hover, .next:hover {
+          background-color: #f1f1f1;
+          color: black;
+        }
+        </style>
+
+        <div class="slideshow-container">
+          <div class="mySlides1">
+            <img src="ieee imgs\Mentor-4-You-min.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides1">
+            <img src="ieee imgs\Step (1)-min.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides1">
+            <img src="ieee imgs\Major-Initiative-min.jpg" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+        </div>
+        <script>
+        var slideIndex = [1,1];
+        var slideId = ["mySlides1", "mySlides2"]
+        showSlides(1, 0);
+        showSlides(1, 1);
+
+        function plusSlides(n, no) {
+          showSlides(slideIndex[no] += n, no);
+        }
+
+        function showSlides(n, no) {
+          var i;
+          var x = document.getElementsByClassName(slideId[no]);
+          if (n > x.length) {slideIndex[no] = 1}
+          if (n < 1) {slideIndex[no] = x.length}
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";
+          }
+          x[slideIndex[no]-1].style.display = "block";
+        }
+        </script>
+
+
 
         <div>
           <h3>STEP</h3>
@@ -137,7 +195,7 @@
         </div>
       </section>
       <section class="card" data-aos="fade-right">
-        <img src="ieee imgs\slp.jpg" alt="" />
+        <img src="ieee imgs\slp.jpg" alt="" >
         <div>
           <h3>Student Leadership Program</h3>
           <p>
@@ -147,7 +205,7 @@
         </div>
       </section>
       <section class="card" data-aos="fade-left">
-        <img src="ieee imgs\CADC.jpg" alt="" />
+        <img src="ieee imgs\CADC.jpg" alt="" >
         <div>
           <h3>Vist To C-DAC 2020</h3>
           <p>
@@ -180,19 +238,84 @@ A part for ILS, WIECON conference.
       </section>
 
       <section class="card" data-aos="fade-right">
+        <style>
+        * {box-sizing: border-box}
+        .mySlides1 {display: none}
+        img {vertical-align: middle;}
 
-  <div class="mySlides2">
-    <img src="ieee imgs\ideatation yo production.jpg" style="width:100%">
-  </div>
+        /* Slideshow container */
+        .slideshow-container {
+          max-width: 1000px;
+          position: relative;
+          margin: auto;
+        }
 
-  <div class="mySlides2">
-    <img src="ieee imgs\slp.jpg" style="width:100%">
-  </div>
+        /* Next & previous buttons */
+        .prev, .next {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          width: auto;
+          padding: 16px;
+          margin-top: -22px;
+          color: white;
+          font-weight: bold;
+          font-size: 18px;
+          transition: 0.6s ease;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+        }
 
-  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
-</div>
+        /* Position the "next button" to the right */
+        .next {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+        }
 
+        /* On hover, add a grey background color */
+        .prev:hover, .next:hover {
+          background-color: #f1f1f1;
+          color: black;
+        }
+        </style>
+
+        <div class="slideshow-container">
+          <div class="mySlides1">
+            <img src="ieee imgs\Mentor-4-You-min.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides1">
+            <img src="ieee imgs\Step (1)-min.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides1">
+            <img src="ieee imgs\Major-Initiative-min.jpg" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+        </div>
+        <script>
+        var slideIndex = [1,1];
+        var slideId = ["mySlides1", "mySlides2"]
+        showSlides(1, 0);
+        showSlides(1, 1);
+
+        function plusSlides(n, no) {
+          showSlides(slideIndex[no] += n, no);
+        }
+
+        function showSlides(n, no) {
+          var i;
+          var x = document.getElementsByClassName(slideId[no]);
+          if (n > x.length) {slideIndex[no] = 1}
+          if (n < 1) {slideIndex[no] = x.length}
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";
+          }
+          x[slideIndex[no]-1].style.display = "block";
+        }
+        </script>
         <div>
           <h3>Technical Writing and Publishing </h3>
           <p>
@@ -433,7 +556,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script>  <i c
    <script src="js/jquery.form.js"></script>
    <script src="js/jquery.validate.min.js"></script>
    <script src="js/mail-script.js"></script>
-  <script src="activitiesjs.js"></script>
+  <script src="activitiesjss.js"></script>
    <script src="js/main.js"></script>
    <script>
        $('.datepicker').datepicker({
