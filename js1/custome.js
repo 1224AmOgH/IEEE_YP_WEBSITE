@@ -7,7 +7,7 @@ $(' #slider .owl-carousel').owlCarousel({
     margin:10,
     nav:true,
     autoplay:true,
-    autoplayTimeout:3000,
+    autoplayTimeout:4000,
     animateIn: 'fadeIn',
     animateOut: 'fadeOut',
     responsive:{
