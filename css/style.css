@@ -3466,7 +3466,7 @@ h3 {
 
 /* line 14, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_quality.scss */
 .quality_area .single_quality {
-  border: 3px solid rgba(206, 243, 255, 0.2);
+  border: #ffffff;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -3504,8 +3504,7 @@ h3 {
   font-size: 26px;
   font-weight: 400;
   color: #222222;
-  margin-top: 32px;
-  margin-bottom: 24px;
+
 }
 
 /* line 43, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_quality.scss */
@@ -6686,7 +6685,7 @@ img{
   width: auto;
   max-width: 100%;
   height: auto;
-  padding-top: 20px;
+
 }
 * {
   box-sizing: border-box;
