@@ -3470,7 +3470,7 @@ h3 {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
-  padding: 70px 45px 63px 45px;
+  padding-left: 60px;
   margin-bottom: 30px;
   text-align: center;
     width: 346px;
@@ -3742,7 +3742,7 @@ h2 {
 h3 {
   font-size: 45px;
   padding-bottom: 10px;
-  padding-top: 10px;
+  padding-top: 50px;
 }
 
 /* line 105, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_elements.scss */
