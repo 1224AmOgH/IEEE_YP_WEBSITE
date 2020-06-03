@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="DROPDOWN.css">
      <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -58,7 +59,29 @@
                                         <nav>
                                             <ul id="navigation">
                                               <li><a class="home" href="index.html">HOME</a></li>
-                                              <li><a  href="Activities.html">EVENTS</a></li>
+                                              <li class="drop-down"><a href="#"><i class="fa fa-cogs"></li> EVENTS</a>
+				<!--Drop Down-->
+				<ul class="drop-down-ul animated fadeIn">
+				<li class="flyout-right"><a href="#">Flyout Right</a><!--Flyout Right-->
+					<ul class="animated fadeIn">
+						<li><a href="#">Mobile</a></li>
+						<li><a href="#">Computer</a></li>
+						<li><a href="#">Watch</a></li>
+					</ul>
+				</li>
+
+				<li class="flyout-left"><a href="#">Flyout Left</a><!--Flyout Left-->
+					<ul class="animated fadeIn">
+						<li><a href="#">Mobile</a></li>
+						<li><a href="#">Computer</a></li>
+						<li><a href="#">Watch</a></li>
+					</ul>
+				</li>
+
+
+
+				</ul>
+				<!--//End drop down-->
                                                 <li><a  href="Activities.html">ACTIVITIES</a></li>
                                                   <li><a href="Achievements_And_Awards1.html">ACHIEVEMENTS</a></li>
                                                 <li><a href="EXECOM.html">EXECOM</a></li>
