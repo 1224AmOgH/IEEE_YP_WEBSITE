@@ -1,180 +1,185 @@
-<head>
+<header>
+
+    <div>
+       <div class="header-banner">
+        <h1>B-HTC</h1>
+    </div>
+    <div class="clear"></div>
 
 
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</header>
+
+<section class="content">
+    <article>
+        <p>
+            <b><h1>IEEE Bangalore Humanitarian Technology Conference (B-HTC) 2020</h1></b><br>
+ IEEE B-HTC 2020, Bangalore section in collaboration with BLDEA's V.P.Dr.P.G.Halakatti College of Engineering and Technology, Vijayapur, Karnataka and supported by IEEE India council is the first edition of this premier annual cross disciplinary conference that provides common platform to engineers, technologists, scientists, inventors, start-ups, academia and industry to discuss the recent advances in Humanitarian Technologies.</br>
+
+    <br><b><h3>The Special Young Professionals (YPS) Track on Bridging Technology and Humanity consists of</h3></b>
+
+1. Internet of Things<br>
+2. 5G and beyond<br>
+3. Artificial Intelligence<br>
+4. Machine Learning<br>
+5. Blockchain Technology<br>
+6. Nano Technology and <br>
+7. Intelligent Transport system<br>
+
+Papers with at least one author being Young Professionals (YP) can be submitted in this Track.
+Authors are requested to submit their research work in above themes (same paper should not be submitted in multiple tracks) using following enabling technologies (but not limited to):<br>
+•	Satellite Communication, Navigation, Remote Sensing, Geoscience and Space Technology<br>
+•	Antennas, RF & Microwave<br>
+•	Robotics, Control systems and Automation<br>
+•	Cloud computing, Bigdata, Architecture, Mobile and wireless communications, Optical and photonic communications, optical networks<br>
+•	Biomedical engineering<br>
+•	Circuits, systems and signal processing,<br>
+•	Power electronics, machines and drives, high voltage<br>
+•	Communication Technologies<br>
+•	Semiconductor, Photonics and Nanotechnology<br>
+•	IoT and enabling technologies<br>
+•	Information and communication technologies<br>
+    <b><h3>Important Dates:</h3></b><br>
+•	Paper Submission Starts: May 1, 2020<br>
+•	Paper Submission Ends: June 30, 2020<br>
+•	Notification of Acceptance:  August 15, 2020<br>
+    <b><h3>Early Submission Advantage:</h3></b> <br>
+May 1-15, 202050%<br>
+May15- May 31, 202040%<br>
+Jun 01- Jun 15, 2020  <br>                30%
+Awards:<br>
+
+<b>Best Paper Awards: INR 25,000 + Certificate<br>
+Best Track Paper Awards: INR 5,000 + Certificate<br>
+All accepted, registered, and presented papers will be published in conference proceedings and IEEE Xplore.<br>
+Websites Link: https://ieeebangalore.org/bhtc/
 
 
+        (YP Social Media Signature)</b>
+</p>
+    </article>
 
-</head>
-<link rel="stylesheet" href="DROPDOWN.css">
+    <aside>
+        <img src="http://placehold.it/144x150">
+        <img src="http://placehold.it/144x150">
+    </aside>
+</section>
 
+ <style>
+/* resets */
+body { margin:0px; padding:0px; }
 
-$(function () {
- $('.toggle-menu').click(function(){
-	$('.exo-menu').toggleClass('display');
+/* main */
+header {
+    height: 360px;
+    z-index: 10;
+}
+.header-banner {
+    background-color: #333;
+    background-image: url('C:\Users\SupreetPC\Downloads\IEEE BHTC2020 YP TRACk with dsicount-min.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
 
- });
+header h1 {
+    background-color: rgba(18,72,120, 0.8);
+    color: #fff;
+    padding: 0 1rem;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
 
-});
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 
+nav {
+    width: 100%;
+    height: 60px;
+    background: #292f36;
+    postion: fixed;
+    z-index: 10;
+}
 
-<body class="background">
-	 <div class="content">
+nav div {
+    color: white;
+    font-size: 2rem;
+    line-height: 60px;
+    position: absolute;
+    top: 0;
+    left: 2%;
+    visibility: hidden;
+}
+.visible-title {
+    visibility: visible;
+}
 
-		<ul class="exo-menu">
-			<li><a class="active" href="#"><i class="fa fa-home"></i> Home</a></li>
-			<li class="drop-down"><a href="#"><i class="fa fa-cogs"></i> Flyout</a>
-				<!--Drop Down-->
-				<ul class="drop-down-ul animated fadeIn">
-				<li class="flyout-right"><a href="#">Flyout Right</a><!--Flyout Right-->
-					<ul class="animated fadeIn">
-						<li><a href="#">Mobile</a></li>
-						<li><a href="#">Computer</a></li>
-						<li><a href="#">Watch</a></li>
-					</ul>
-				</li>
+nav ul {
+    list-style-type: none;
+    margin: 0 2% auto 0;
+    padding-left: 0;
+    text-align: right;
+    max-width: 100%;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin-left: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #a9abae;
+}
 
-				<li class="flyout-left"><a href="#">Flyout Left</a><!--Flyout Left-->
-					<ul class="animated fadeIn">
-						<li><a href="#">Mobile</a></li>
-						<li><a href="#">Computer</a></li>
-						<li><a href="#">Watch</a></li>
-					</ul>
-				</li>
+/* demo content */
+body {
+    color: #292f36;
+    font-family: helvetica;
+    line-height: 1.6;
+}
+.content{
+    margin: 0 auto;
+    padding: 4rem 0;
+    width: 960px;
+    max-width: 100%;
+}
+article {
+    float: left;
+    width: 720px;
+}
+article p:first-of-type {
+    margin-top: 0;
+}
+aside {
+    float: right;
+    width: 120px;
+}
+p img {
+    max-width: 100%;
+}
 
-				<li><a href="#">No Flyout</a></li>
-
-				</ul>
-				<!--//End drop down-->
-
-			</li>
-			<li><a href="#"><i class="fa fa-cogs"></i> Services</a></li>
-			<li><a href="#"><i class="fa fa-briefcase"></i> Portfolio</a></li>
-			<li class="mega-drop-down"><a href="#"><i class="fa fa-list"></i> Mega Menu</a>
-				<div class="animated fadeIn mega-menu">
-					<div class="mega-menu-wrap">
-						<div class="row">
-						<div class="col-md-4">
-							<h4 class="row mega-title">Feature</h4>
-								<img class="img-responsive" src="https://3.bp.blogspot.com/-rUk36pd-LbM/VcLb48X4f-I/AAAAAAAAGCI/Y_UxBAgEqwA/s1600/Magento_themes.jpg">
-							</div>
-							<div class="col-md-2">
-									<h4 class="row mega-title">Standers</h4>
-								<ul class="stander">
-									<li><a href="#">Mobile</a></li>
-									<li><a href="#">Computer</a></li>
-									<li><a href="#">Watch</a></li>
-									<li><a href="#">laptop</a></li>
-									<li><a href="#">Camera</a></li>
-									<li><a href="#">I pad</a></li>
-									<li><a class="view-more btn- btn-sm" href="#">View more</a></li>
-								</ul>
-							</div>
-							<div class="col-md-3">
-								<h4 class="row mega-title">Description</h4>
-								<ul class="description">
-									<li><a href="#">Women</a>
-										<span>Description of Women</span>
-									</li>
-									<li><a href="#">Men</a>
-											<span>Description of men Cloths</span>
-									</li>
-									<li><a href="#">Kids</a>
-											<span>Description of Kids Cloths</span>
-									</li>
-									<li><a href="#">Others</a>
-											<span>Description of Others Cloths</span>
-									</li>
-									<li>
-									<a class="view-more btn btn-sm " href="#">View more</a>
-
-									</li>
-								</ul>
-							</div>
-							<div class="col-md-3">
-							<h4 class="row mega-title">Icon + Description</h4>
-								<ul class="icon-des">
-									<li><a href="#"><i class="fa fa-globe"></i>Web</a></li>
-									<li><a href="#"><i class="fa fa-mobile"></i>Mobile</a></li>
-									<li><a href="#"><i class="fa fa-arrows-h"></i>Responsive</a></li>
-									<li><a href="#"><i class="fa fa-desktop"></i>Desktop</a></li>
-									<li><a href="#"><i class="fa fa-paint-brush"></i>UI/UX</a></li>
-								</ul>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</li>
-			<li class="blog-drop-down"><a href="#"><i class="fa fa-bullhorn"></i> Blog</a>
-				<div class="Blog animated fadeIn">
-					<div class="col-md-4">
-						<img class="img-responsive" src="https://2.bp.blogspot.com/-VG_e0pKfrDo/VcLb6JwZqfI/AAAAAAAAGCk/8ZgA9kZqTQ8/s1600/images3.jpg">
-						<div class="blog-des">
-					<h4 class="blog-title">Lorem ipsum dolor sit amet</h4>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-							tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-							nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-							Duis autem vel eum iriure dolor in hendrerit in vulputate. </p>
-							<a class="view-more btn- btn-sm" href="#">Read More</a>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<img class="img-responsive" src="https://3.bp.blogspot.com/-hUt5FrdZHio/VcLb5dlwTBI/AAAAAAAAGCU/UUH5N1JkoQc/s1600/images1.jpg">
-						<div class="blog-des">
-						<h4 class="blog-title">Lorem ipsum dolor sit amet</h4>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-							tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-							nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-							Duis autem vel eum iriure dolor in hendrerit in vulputate. </p>
-									<a class="view-more btn- btn-sm" href="#">Read More</a>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<img class="img-responsive" src="https://4.bp.blogspot.com/-A7U1uPlSq6Y/VcLb5kKHCkI/AAAAAAAAGCc/7WghyndTEuY/s1600/images2.jpg">
-						<div class="blog-des">
-						<h4 class="blog-title">Lorem ipsum dolor sit amet</h4>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-							tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-							nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-							Duis autem vel eum iriure dolor in hendrerit in vulputate. </p>
-									<a class="view-more btn- btn-sm" href="#">Read More</a>
-						</div>
-					</div>
-
-
-				</div>
-			</li>
-			<li  class="images-drop-down"><a  href="#"><i class="fa fa-photo"></i> Images</a>
-				<div class="Images animated fadeIn">
-					<div class="col-md-3">
-						<h4>Images Title </h4>
-						<img class="img-responsive" src="https://2.bp.blogspot.com/-VG_e0pKfrDo/VcLb6JwZqfI/AAAAAAAAGCk/8ZgA9kZqTQ8/s1600/images3.jpg">
-					</div>
-					<div class="col-md-3">
-					<h4>Images Title </h4>
-						<img class="img-responsive" src="https://3.bp.blogspot.com/-hUt5FrdZHio/VcLb5dlwTBI/AAAAAAAAGCU/UUH5N1JkoQc/s1600/images1.jpg">
-					</div>
-					<div class="col-md-3">
-					<h4>Images Title </h4>
-						<img class="img-responsive" src="https://4.bp.blogspot.com/-A7U1uPlSq6Y/VcLb5kKHCkI/AAAAAAAAGCc/7WghyndTEuY/s1600/images2.jpg">
-					</div>
-					<div class="col-md-3">
-					<h4>Images Title </h4>
-						<img class="img-responsive"  src="https://3.bp.blogspot.com/-hGrnZIjzL2k/VcLb47kyQKI/AAAAAAAAGCQ/J6Q2IAHIQvQ/s1600/image4.jpg">
-					</div>
-
-				</div>
-
-			</li>
-			<li><a href="#"><i class="fa fa-envelope"></i> Contact</a>
-				<div class="contact">
-
-				</div>
-			</li>
-			<a href="#" class="toggle-menu visible-xs-block">|||</a>
-	</ul>
-
-
-	 </div>
+@media only screen and (max-width: 960px) {
+    .content{
+        padding: 2rem 0;
+    }
+    article {
+        float: none;
+        margin: 0 auto;
+        width: 96%;
+    }
+    article:last-of-type {
+        margin-bottom: 3rem;
+    }
+    aside {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
+</style>
